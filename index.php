@@ -3,7 +3,7 @@
 // ==== Control Vars =======
 $strFromNumber = "+1xxx";
 $strToNumber = "+1xxx";
-$strMsg = "Did you catch Olivier's nip slip last night? OMG right?";
+$strMsg = "Did you catch Olivier's nip slip last night? OMG right?"; //Olivier accidentally pulled up a porn site on a projector 
 $aryResponse = array();
  
 
