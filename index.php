@@ -22,9 +22,9 @@ $aryResponse = array();
     // Send a new outgoinging SMS by POSTing to the SMS resource */
     $bSuccess = $objConnection->account->sms_messages->create(
         
-        $strFromNumber, 		  // number we are sending From 
+        $strFromNumber, 	// number we are sending From 
         $strToNumber,           // number we are sending To
-        $strMsg					// the sms body
+        $strMsg			// the sms body
     );
 
 		
@@ -32,4 +32,4 @@ $aryResponse = array();
     $aryResponse["Success"] = true;
     
     
-	echo json_encode($aryResponse);
+    echo json_encode($aryResponse);
